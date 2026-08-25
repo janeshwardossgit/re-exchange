@@ -3,10 +3,10 @@ import type { Category, ExchangeType } from "./types";
 export const CAMPUS = "SRM Institute of Technology, Chennai";
 
 export const HOSTELS = [
-  "Ganga Hostel",
-  "Yamuna Hostel",
-  "Narmada Hostel",
-  "Krishna Hostel",
+  "M-BLOCK Hostel",
+  "Meenakshi Hostel",
+  "Senbagam Hostel",
+  "Kalpana Chawla Hostel",
   "Faculty / Staff quarters",
   "Off-campus",
 ] as const;

@@ -65,8 +65,8 @@ export const users: User[] = [
     initials: "PN",
   },
   {
-    id: "u-dev",
-    name: "Dev Patel",
+    id: "u-atharva",
+    name: "Atharva Vadhneri",
     course: "B.Tech Computer Science",
     year: "3rd year",
     campus: CAMPUS,
