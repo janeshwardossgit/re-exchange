@@ -8,7 +8,7 @@ export const users: User[] = [
     id: "u-janeshwar",
     name: "Janeshwar",
     course: "B.Tech Computer Science",
-    year: "1nd year",
+    year: "1st year",
     campus: CAMPUS,
     hostel: "Adhiyaman Hostel",
     rating: 4.8,
