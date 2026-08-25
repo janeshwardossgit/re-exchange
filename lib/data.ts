@@ -250,7 +250,7 @@ export const listings: Listing[] = [
     availability: "Anytime",
     images: [img("photo-1456513080800-7d93acd79315"), img("photo-1434030216411-0b793f4b4173")],
     preferredExchange: "Free · please don't resell the pack",
-    ownerId: "u-Atharva",
+    ownerId: "u-aanya",
     createdAt: "2026-08-19T16:20:00.000Z",
     views: 198,
     savedCount: 72,
