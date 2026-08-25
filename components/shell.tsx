@@ -25,16 +25,20 @@ export function Shell({ children }: { children: React.ReactNode }) {
             {links.map((l) => {
               const active = l.href === "/" ? path === "/" : path.startsWith(l.href);
               return (
-                <Link
-                  key={l.href}
-                  href={l.href}
-                  className={cn(
-                    "rounded-full px-3 py-1.5 text-sm transition",
-                    active ? "bg-ink text-[#f6f1e7]" : "text-muted hover:text-ink",
-                  )}
-                >
-                  {l.label}
-                </Link>
+               <Link
+  href="/"
+  className="group flex items-center gap-2 leading-none"
+  aria-label="RE:EXCHANGE home"
+>
+  <span className="grid h-8 w-8 place-items-center rounded-xl bg-forest text-sm font-bold text-[#f6f1e7] transition group-hover:scale-105">
+    ↔
+  </span>
+
+  <span className="text-[15px] font-black tracking-[-0.03em]">
+    <span className="text-ember">RE:</span>
+    <span className="text-ink">EXCHANGE</span>
+  </span>
+</Link>
               );
             })}
           </nav>
