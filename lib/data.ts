@@ -195,7 +195,7 @@ export const listings: Listing[] = [
   },
   {
     id: "l-ticket",
-    title: "Aether Cultural Night — 1 standing ticket",
+    title: "SRM Cultural Night — 1 standing ticket",
     description:
       "Can't make Saturday (family function). Row-free standing, includes a drink coupon they probably won't honour after 9. Transfer on the fest portal in 2 minutes.",
     category: "Tickets",
@@ -472,7 +472,7 @@ export const listings: Listing[] = [
     hostel: "Faculty / Staff quarters",
     availability: "Wed evenings",
     images: [img("photo-1475721027785-f74eccf877e2"), img("photo-1551836022-d5d88e9218df")],
-    preferredExchange: "Free for Aether students",
+    preferredExchange: "Free for SRM students",
     ownerId: "u-sara",
     createdAt: "2026-08-20T17:25:00.000Z",
     views: 71,

@@ -51,7 +51,7 @@ function DiscoverInner() {
     <div className="space-y-10">
       <section className="grid gap-8 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
         <div>
-          <p className="text-xs font-medium tracking-[0.22em] text-ember uppercase">Aether campus only</p>
+          <p className="text-xs font-medium tracking-[0.22em] text-ember uppercase">SRM campus only</p>
           <h1 className="display mt-2 max-w-xl text-4xl leading-[1.1] sm:text-5xl">
             Unused campus value, put back into motion.
           </h1>

@@ -105,3 +105,13 @@ button { font-family: inherit; }
   outline: 2px solid var(--forest);
   outline-offset: 3px;
 }
+
+::selection {
+  color: #ffffff;
+  background-color: var(--forest);
+}
+
+::-moz-selection {
+  color: #ffffff;
+  background-color: var(--forest);
+}

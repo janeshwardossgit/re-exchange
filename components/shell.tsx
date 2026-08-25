@@ -18,8 +18,8 @@ export function Shell({ children }: { children: React.ReactNode }) {
     <div className="relative z-[1] flex min-h-full flex-col">
       <header className="sticky top-0 z-40 border-b border-line/80 bg-[color-mix(in_oklab,var(--paper)_88%,transparent)] backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
-          <Link href="/" className="display text-[1.35rem] leading-none tracking-tight">
-            <span className="text-ember">RE:</span>EXCHANGE
+          <Link href="/" className="flex items-center leading-none">
+            <img src="/re-exchange-wordmark.svg" alt="RE:EXCHANGE" className="h-8 w-auto" />
           </Link>
           <nav className="hidden items-center gap-1 md:flex">
             {links.map((l) => {
@@ -57,7 +57,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
       </header>
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 pb-24 pt-6 md:pb-12">{children}</main>
       <footer className="hidden border-t border-line px-4 py-8 text-center text-xs text-muted md:block">
-        Aether Institute of Technology · peer exchange, not a classifieds dump.
+        SRM Institute of Technology · peer exchange, not a classifieds dump.
       </footer>
       <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-[color-mix(in_oklab,var(--paper)_92%,transparent)] backdrop-blur-md md:hidden">
         <div className="grid grid-cols-5">

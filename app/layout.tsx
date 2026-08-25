@@ -17,7 +17,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "RE:EXCHANGE · Campus unused value, circulating",
   description:
-    "Buy, sell, trade, lend, and give away inside your college. Aether Institute of Technology student exchange.",
+    "Buy, sell, trade, lend, and give away inside your college.SRM Institute of Technology student exchange.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

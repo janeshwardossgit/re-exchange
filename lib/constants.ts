@@ -1,6 +1,6 @@
 import type { Category, ExchangeType } from "./types";
 
-export const CAMPUS = "Aether Institute of Technology, Pune";
+export const CAMPUS = "SRM Institute of Technology, Pune";
 
 export const HOSTELS = [
   "Ganga Hostel",
