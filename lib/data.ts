@@ -14,7 +14,7 @@ export const users: User[] = [
     rating: 4.8,
     reviews: 14,
     bio: "CSE Fresher who keeps a drafter, a half-charged power bank, and too many PDFs. Happy to lend calculators before mid-sems.",
-    skills: ["Python", "Figma", "DSA drills"],
+    skills: ["Python", "Linux", "Cyber Security"],
     exchangesCompleted: 7,
     avatarHue: 152,
     initials: "JN",
