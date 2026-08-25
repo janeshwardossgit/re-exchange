@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --paper: #f3eee4;
+  --paper-2: #e8e0d1;
+  --card: #fffcf6;
+  --ink: #14211c;
+  --muted: #5c6a64;
+  --line: #d7cdbc;
+  --forest: #1b5c44;
+  --leaf: #2f8a64;
+  --ember: #c44b2c;
+  --gold: #c9a227;
+  --ok: #1b5c44;
+  --warn: #9a5b12;
+  --err: #9d2c2c;
+  --shadow: 0 18px 40px -24px rgba(20, 33, 28, 0.35);
+}
+
+/* Green selectors with clearly visible white text */
+select {
+  color: #ffffff;
+  background-color: var(--forest);
+}
+
+select option {
+  color: #ffffff;
+  background-color: var(--forest);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-forest: var(--forest);
+  --color-leaf: var(--leaf);
+  --color-ember: var(--ember);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-fraunces);
+}
+
+* { box-sizing: border-box; }
+
+html, body { min-height: 100%; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-outfit), system-ui, sans-serif;
+}
+
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  opacity: 0.35;
+  background-image: radial-gradient(#14211c 0.4px, transparent 0.4px);
+  background-size: 7px 7px;
+  z-index: 0;
+}
+
+a { color: inherit; text-decoration: none; }
+
+button { font-family: inherit; }
+
+.display {
+  font-family: var(--font-fraunces), Georgia, serif;
+}
+
+.rise {
+  animation: rise 0.55s ease both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.toast-in { animation: toast-in 0.25s ease; }
+
+.skeleton {
+  background: linear-gradient(90deg, #e8e0d1 25%, #f6f1e7 50%, #e8e0d1 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite;
+}
+
+@keyframes shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -100% 0; }
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 3px;
+}
